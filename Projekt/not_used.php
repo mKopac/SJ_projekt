@@ -118,7 +118,7 @@ https://templatemo.com/tm-584-pod-talk
                                 <div class="col-lg-3 col-12">
                                     <div class="custom-block-icon-wrap">
                                         <div class="custom-block-image-wrap custom-block-image-detail-page">
-                                            <img src="images/podcast/11683425_4790593.jpg" class="custom-block-image img-fluid" alt="">
+                                            <img src="images/episodes/11683425_4790593.jpg" class="custom-block-image img-fluid" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -198,7 +198,7 @@ https://templatemo.com/tm-584-pod-talk
                             <div class="custom-block custom-block-full">
                                 <div class="custom-block-image-wrap">
                                     <a href="detail-page.html">
-                                        <img src="images/podcast/27376480_7326766.jpg" class="custom-block-image img-fluid" alt="">
+                                        <img src="images/episodes/27376480_7326766.jpg" class="custom-block-image img-fluid" alt="">
                                     </a>
                                 </div>
 
@@ -249,7 +249,7 @@ https://templatemo.com/tm-584-pod-talk
                             <div class="custom-block custom-block-full">
                                 <div class="custom-block-image-wrap">
                                     <a href="detail-page.html">
-                                        <img src="images/podcast/27670664_7369753.jpg" class="custom-block-image img-fluid" alt="">
+                                        <img src="images/episodes/27670664_7369753.jpg" class="custom-block-image img-fluid" alt="">
                                     </a>
                                 </div>
 
@@ -303,7 +303,7 @@ https://templatemo.com/tm-584-pod-talk
                             <div class="custom-block custom-block-full">
                                 <div class="custom-block-image-wrap">
                                     <a href="detail-page.html">
-                                        <img src="images/podcast/12577967_02.jpg" class="custom-block-image img-fluid" alt="">
+                                        <img src="images/episodes/12577967_02.jpg" class="custom-block-image img-fluid" alt="">
                                     </a>
                                 </div>
 
