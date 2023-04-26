@@ -17,11 +17,11 @@ include_once "parts/nav.php";
 
                 <div class="col-lg-12 col-12">
                     <div class="text-center mb-5 pb-2">
-                        <h1 class="text-white">Listen to Pod Talk</h1>
+                        <h1 class="text-white">Welcome to our straming service</h1>
 
-                        <p class="text-white">Listen it everywhere. Explore your fav podcasts.</p>
+                        <p class="text-white">Watch anywhere anytime</p>
 
-                        <a href="#section_2" class="btn custom-btn smoothscroll mt-3">Start listening</a>
+                        <a href="#section_2" class="btn custom-btn smoothscroll mt-3">Stream now</a>
                     </div>
 
                 </div>

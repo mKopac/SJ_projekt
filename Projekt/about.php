@@ -49,17 +49,55 @@ include_once "parts/nav.php";
                             war in years 1950-1953. However this unit is not the military outfit someone would
                             expect. When not on duty the local medical personel engages in activities varying
                             from playing golf in a minefield, to performing practical jokes on anyone. But their
-                            most distinct characteristic is complete lack of discipline. Best described by the
-                            main hero, Doctor Hawkeye Pierce and his best friend Doctor Trapper John who are not
-                            afraid to tell anyone, not even a general, what they think without any fear. In their
-                            tent called "The Swamp" they assembled their very own still which they use to supply
-                            the whole camp with gin. The roommate of Hawkeye and Trapper is Major Frank Burns.
-                            Frank is an extremly patriotic, rule following but somewhat cowardly doctor. He is
-                            often made fun of because of his surgical incompetence and being very annoying to
-                            everone else. Commander of the camp is Lt. Colonel Henry Blake, a good
-                            doctor but an indecisive leader, who is aided by Corporal "Radar" O'Reilly an 18-year
-                            old kid from Iowa with a special ability who no one can really understand, he can
-                            tell what's going to happen or what is someone going to say before it happens.
+                            most distinct characteristic is complete lack of discipline. There are many various
+                            characters living in the camp but the most important are:
+                        </p>
+                        <ul>
+                            <li> Hawkeye Pierce and his friend Trapper John are sugeons who have been drafted from their
+                                civilian practices and are not afraid to tell anyone, not even a general, what they
+                                think
+                                about the army and war without any fear. In their tent called "The Swamp" they assembled
+                                their very own still which they use to supply the whole camp with gin.
+
+                            <li> Their roommate of Hawkeye and Trapper is Major Frank Burns. Frank is an extremly
+                                patriotic, rule following but somewhat cowardly doctor. He is often made fun of because
+                                of
+                                his surgical incompetence and being very annoying to everone else.
+
+                            <li> Commander of the camp is Lt. Colonel Henry Blake, a good doctor but an indecisive
+                                leader.
+                                Henry is a enjoyer of good drink, playing golf and fishing. Since he's also a draftee he
+                                stands firm with Hawkeye and Trapper in their mischiefs against Frank and Margaret.
+
+                            <li> Aided by Corporal "Radar" O'Reilly an 18 year old from Iowa with a special ability
+                                which
+                                no one can really understand, he can tell what's going to happen or what is someone
+                                going
+                                to say before it happens. Often speculated that it is actually him who runs the unit and
+                                uses Henry just for signatures.
+
+                            <li> Major Margaret Houlihan is the chief nurse of the hospital. Because the army is her
+                                career
+                                she has to act tough, follow every rule and regulation and not let emotions come to
+                                surface.
+                                She and Frank are desperately trying to keep their relationship secret, not willing to
+                                acknowledge the fact that everyone knows about it.
+
+                            <li> Corporal Klinger is one of many enlisted personel in the camp. Klinger is a good
+                                soldier,but he would rather be a good civilian. During most of his stay in Korea he
+                                does his best to get a psychiatric discharge by wearing woman's dresses.
+
+                            <li> Father Mulcahy is a camp priest who unlike the doctors who treat wounds on the body
+                                does his best to help the persons soul. Nevertheless he likes to engage in such
+                                activities the weekly poker game, betting etc. However anything he wins he donates to
+                                the orphans.
+
+                        </ul>
+                        <p>
+                            The life at 4077th is not just fun and games. Every day there is the inevitable moment
+                            when the personel has to visit the mess tent and have their meal from World War 2 surplus.
+                            But what beats anything is the war raging all around and an almost constant inflow of
+                            wounded yound men coming in hoping that the doctors of the 4077th save their lives.
                         </p>
 
 
@@ -76,7 +114,7 @@ include_once "parts/nav.php";
                 <div class="owl-carousel owl-theme">
                     <div class="owl-carousel-info-wrap item">
                         <img src="images/profile/hawkeye.jpg"
-                             class="owl-carousel-image img-fluid" alt="">
+                             class="owl-carousel-image  img-fluid" alt="">
 
                         <div class="owl-carousel-info">
                             <h4 class="mb-2">B.F."Hawkeye" Pierce</h4>
@@ -159,11 +197,11 @@ include_once "parts/nav.php";
                     </div>
 
                     <div class="owl-carousel-info-wrap item">
-                        <img src="images/profile/klinger1.jpg"
+                        <img src="images/profile/klinger.jpg"
                              class="owl-carousel-image img-fluid" alt="">
 
                         <div class="owl-carousel-info">
-                            <h4 class="mb-2">Maxwel Klinger</h4>
+                            <h4 class="mb-2">Maxwell Klinger</h4>
 
                             Played by Jamie Farr
                         </div>

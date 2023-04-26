@@ -79,7 +79,7 @@ https://templatemo.com/tm-584-pod-talk
                             </li>
     
                             <li class="nav-item">
-                                <a class="nav-link" href="quotes.php">Contact</a>
+                                <a class="nav-link" href="bonus.php">Contact</a>
                             </li>
                         </ul>
 

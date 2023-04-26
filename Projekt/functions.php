@@ -18,9 +18,9 @@ function getMenuData(string $type): array
                     'name' => 'Watch',
                     'path' => 'watch.php',
                 ],
-                'quotes' => [
-                    'name' => 'Quotes',
-                    'path' => 'quotes.php',
+                'bonus' => [
+                    'name' => 'Bonus',
+                    'path' => 'bonus.php',
                 ]
             ];
         }

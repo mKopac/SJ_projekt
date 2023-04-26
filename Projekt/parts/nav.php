@@ -7,7 +7,7 @@ $menu = getMenuData("header");
 <header class="container main-header">
     <div class="logo-holder">
         <a href="<?php echo $menu['home']['path']; ?>">
-            <img alt="img" src="img/logo.png" height="40">
+            <img alt="img" src="C:\xampp\htdocs\SJ\Projekt\images\other\logo.jpg" height="40">
         </a>
     </div>
     <nav class="main-nav">
