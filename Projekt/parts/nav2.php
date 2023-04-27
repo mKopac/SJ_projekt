@@ -36,3 +36,32 @@ $menu = getMenuData("header");
         </div>
     </div>
 </nav>
+
+
+
+
+
+
+
+
+<?php
+include_once "functions.php";
+
+$menu = getMenuData("header");
+?>
+
+<header class="container main-header">
+    <div class="logo-holder">
+        <a href="<?php echo $menu['home']['path']; ?>">
+            <img alt="img" src="C:\xampp\htdocs\SJ\Projekt\images\other\logo.jpg" height="40">
+        </a>
+    </div>
+    <nav class="main-nav">
+        <ul class="main-menu" id="main-menu container">
+            <?php printMenu($menu); ?>
+        </ul>
+        <a class="hamburger" id="hamburger">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+</header>

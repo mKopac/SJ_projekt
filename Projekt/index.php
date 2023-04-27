@@ -8,7 +8,7 @@ include_once "parts/header.php"
 
 
 <?php
-include_once "parts/nav2.php";
+include_once "parts/nav.php";
 ?>
 
 <main>
@@ -17,7 +17,6 @@ include_once "parts/nav2.php";
     <section class="hero-section">
         <div class="container">
             <div class="row">
-
                 <div class="col-lg-12 col-12">
                     <div class="text-center mb-5 pb-2">
                         <h1 class="text-white">Welcome to our straming service</h1>
