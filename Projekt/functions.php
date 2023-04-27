@@ -32,7 +32,7 @@ function getMenuData(string $type): array
 function printMenu(array $menu)
 {
     foreach ($menu as $menuName => $menuData) {
-        echo '<li><a href="'.$menuData['path'].'">'.$menuData['name'].'</a></li>';
+        echo '<li><a class="nav-link active" href="'.$menuData['path'].'">'.$menuData['name'].'</a></li>';
     }
 }
 

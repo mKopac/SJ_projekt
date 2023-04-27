@@ -5,9 +5,12 @@ include_once "parts/header.php"
 ?>
 
 <body>
+
+
 <?php
-include_once "parts/nav.php";
+include_once "parts/nav2.php";
 ?>
+
 <main>
 
 
