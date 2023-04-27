@@ -117,7 +117,7 @@ include_once "parts/nav.php";
                              class="owl-carousel-image  img-fluid" alt="">
 
                         <div class="owl-carousel-info">
-                            <h4 class="mb-2">B.F."Hawkeye" Pierce</h4>
+                            <h6 class="mb-2">B.F."Hawkeye" Pierce</h6>
 
                             Played by Alan Alda
                         </div>
@@ -128,7 +128,7 @@ include_once "parts/nav.php";
                              class="owl-carousel-image img-fluid" alt="">
 
                         <div class="owl-carousel-info">
-                            <h4 class="mb-2">"Trapper" John McIntyre</h4>
+                            <h6 class="mb-2">"Trapper" John McIntyre</h6>
 
                             Played by Wayne Rogers
                         </div>
@@ -141,7 +141,7 @@ include_once "parts/nav.php";
                              class="owl-carousel-image img-fluid" alt="">
 
                         <div class="owl-carousel-info">
-                            <h4 class="mb-2">B.J. Hunnicutt</h4>
+                            <h6 class="mb-2">B.J. Hunnicutt</h6>
 
                             Played by Mike Farrel
                         </div>
@@ -153,7 +153,7 @@ include_once "parts/nav.php";
                              class="owl-carousel-image img-fluid" alt="">
 
                         <div class="owl-carousel-info">
-                            <h4 class="mb-2">"Radar" O'Reilly</h4>
+                            <h6 class="mb-2">Walter "Radar" O'Reilly</h6>
 
                             Played by Gary Burghoff
                         </div>
@@ -165,7 +165,7 @@ include_once "parts/nav.php";
                              class="owl-carousel-image img-fluid" alt="">
 
                         <div class="owl-carousel-info">
-                            <h4 class="mb-2">Frank Burns</h4>
+                            <h6 class="mb-2">Frank Burns</h6>
 
                             Played by Larry Linville
                         </div>
@@ -177,7 +177,7 @@ include_once "parts/nav.php";
                              class="owl-carousel-image img-fluid" alt="">
 
                         <div class="owl-carousel-info">
-                            <h4 class="mb-2">Margaret Houlihan</h4>
+                            <h6 class="mb-2">Margaret Houlihan</h6>
 
                             Played by Loretta Swit
                         </div>
@@ -189,7 +189,7 @@ include_once "parts/nav.php";
                              class="owl-carousel-image img-fluid" alt="">
 
                         <div class="owl-carousel-info">
-                            <h4 class="mb-2">Henry Blake</h4>
+                            <h6 class="mb-2">Henry Blake</h6>
 
                             Played by McLean Stevenson
                         </div>
@@ -201,7 +201,7 @@ include_once "parts/nav.php";
                              class="owl-carousel-image img-fluid" alt="">
 
                         <div class="owl-carousel-info">
-                            <h4 class="mb-2">Maxwell Klinger</h4>
+                            <h6 class="mb-2">Maxwell Klinger</h6>
 
                             Played by Jamie Farr
                         </div>
@@ -213,7 +213,7 @@ include_once "parts/nav.php";
                              class="owl-carousel-image img-fluid" alt="">
 
                         <div class="owl-carousel-info">
-                            <h4 class="mb-2">Sherman Potter</h4>
+                            <h6 class="mb-2">Sherman Potter</h6>
 
                             Played by Harry Morgan
                         </div>
@@ -225,7 +225,7 @@ include_once "parts/nav.php";
                              class="owl-carousel-image img-fluid" alt="">
 
                         <div class="owl-carousel-info">
-                            <h4 class="mb-2">Father Mulcahy</h4>
+                            <h6 class="mb-2">Father Mulcahy</h6>
 
                             Played by William Cristopher
                         </div>
@@ -237,7 +237,7 @@ include_once "parts/nav.php";
                              class="owl-carousel-image img-fluid" alt="">
 
                         <div class="owl-carousel-info">
-                            <h4 class="mb-2">Charles Emerson Winchester III</h4>
+                            <h6 class="mb-2">Charles Emerson Winchester III</h6>
 
                             Played by David Ogden Stiers
                         </div>
