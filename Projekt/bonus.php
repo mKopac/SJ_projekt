@@ -83,7 +83,17 @@ include_once "parts/nav.php";
                         <hr>
                         <b>Col. Flagg:</b> Hey, up close you're a guy!<br>
                         <b>Klinger:</b> Far away too.
-
+                        <hr>
+                        <b>Trapper:</b> Now calm down Frank, I'm the doctor here!<br>
+                        <b>Hawkeye:</b> I thought I was the doctor here.<br>
+                        <b>Trapper:</b> Actually, we're all doctors here. Even the patient is a doctor here.<br>
+                        <b>Hawkeye:</b> Hear, hear!
+                        <hr>
+                        <b>Charles:</b> Can you play this comic opera elsewhere?<br>
+                        <b>Hawkeye impersonating a general:</b> Comic opera?!<br>
+                        <b>Charles:</b> We are busy here.<br>
+                        <b>BJ:</b> Shall I have him shot, Mon General?<br>
+                        <b>Hawkeye impersonating a general:</b> Shooting is no good for him, lock him in a kitchen!
 
 
 

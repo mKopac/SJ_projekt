@@ -1,12 +1,17 @@
 <?php
 include_once "functions.php";
 
-$menu = getMenuData("header");
+use ukf\Menu;
+
+$menuObj = new Menu();
+
+$menu = $menuObj->getMenuData("header");
 ?>
 
 <nav class="navbar navbar-expand-lg">
     <div class="container">
-        <a class="navbar-brand me-lg-5 me-0" href="index.html">
+        <a class="navbar-brand me-lg-5 me-0" href="<?php echo $menu['home']['path']; ?>">
+        <!--<a class="navbar-brand me-lg-5 me-0" href="index.php">-->
             <img src="/images/others/logo.jpg" class="logo-image img-fluid" alt="NAZOV">
         </a>
 
@@ -29,7 +34,7 @@ $menu = getMenuData("header");
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>-->
 
-                <?php printMenu($menu); ?>
+                <?php $menuObj->printMenu($menu); ?>
             </ul>
 
 

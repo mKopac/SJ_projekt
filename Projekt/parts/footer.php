@@ -26,6 +26,9 @@
                     <strong class="d-inline me-2">Email:</strong>
                     <a href="#">inquiry@pod.co</a>
                 </p>
+                <p>
+                    <a href="admin/home.php">Admin</a>
+                </p>
             </div>
 
 
