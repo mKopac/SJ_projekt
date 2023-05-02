@@ -72,7 +72,8 @@ class Menu{
                     foreach ($menuData as $menuItem) {
                         $menu[$menuItem['sys_name']] = [
                             'name' => $menuItem['user_name'],
-                            'path' => $menuItem['path']
+                            'path' => $menuItem['path'],
+                            'id' => $menuItem['id']
                         ];
                     }
                 } catch (\Exception $exception) {
