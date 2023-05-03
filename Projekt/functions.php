@@ -62,8 +62,6 @@ class Menu{
         if ($this->validateMenuType($type)) {
             if ($type === "header") {
                 try {
-                    //$menuJsonFile = file_get_contents($this->sourceFileName);
-                    //$menu = json_decode($menuJsonFile, true);
 
                     $sql = "SELECT * FROM menu";
                     $query = $this->connection->query($sql);
@@ -72,7 +70,8 @@ class Menu{
                     foreach ($menuData as $menuItem) {
                         $menu[$menuItem['sys_name']] = [
                             'name' => $menuItem['user_name'],
-                            'path' => $menuItem['path']
+                            'path' => $menuItem['path'],
+                            'id' => $menuItem['id']
                         ];
                     }
                 } catch (\Exception $exception) {
@@ -126,6 +125,34 @@ class Menu{
         if (in_array($type, $menuTypes)) {
             return true;
         } else {
+            return false;
+        }
+    }
+
+    public function getMenuItem(int $id): array
+    {
+        try {
+            $sql = "SELECT * FROM menu WHERE id = ". $id;
+            $query = $this->connection->query($sql);
+            $menuItem = $query->fetch(PDO::FETCH_ASSOC);
+
+            return $menuItem;
+        } catch (\Exception $exception) {
+            echo $exception->getMessage();
+            return [];
+        }
+    }
+
+    public function updateMenuItem(int $id, string $sysName, string $userName, string $path): bool
+    {
+        $sql = "UPDATE menu 
+                SET sys_name = '".$sysName."', user_name = '".$userName."', path = '".$path."' 
+                WHERE id = ".$id;
+        $statement = $this->connection->prepare($sql);
+        try {
+            $update = $statement->execute();
+            return $update;
+        } catch (\Exception $exception) {
             return false;
         }
     }
