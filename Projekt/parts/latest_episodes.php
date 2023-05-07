@@ -14,7 +14,7 @@
                     <div class="">
                         <div class="custom-block-icon-wrap">
                             <div class="section-overlay"></div>
-                            <a href="not_used.php" class="custom-block-image-wrap">
+                            <a href="gfa.php" class="custom-block-image-wrap">
                                 <img src="images/episodes/gfa.jpg" class="custom-block-image img-fluid"
                                      alt="">
 
@@ -42,7 +42,7 @@
                         </div>
 
                         <h5 class="mb-2">
-                            <a href="watch.php">
+                            <a href="gfa.php">
                                 Goodbye, Farewell and Amen
                             </a>
                         </h5>
@@ -73,7 +73,7 @@
                     <div class="">
                         <div class="custom-block-icon-wrap">
                             <div class="section-overlay"></div>
-                            <a href="not_used.php" class="custom-block-image-wrap">
+                            <a href=gfa.php" class="custom-block-image-wrap">
                                 <img src="images/episodes/atgb.jpg" class="custom-block-image img-fluid"
                                      alt="">
 
@@ -101,7 +101,7 @@
                         </div>
 
                         <h5 class="mb-2">
-                            <a href="watch.php">
+                            <a href="gfa.php">
                                 As Time Goes By
                             </a>
                         </h5>

@@ -1,0 +1,18 @@
+{
+  "home": {
+    "name": "Home",
+    "path": "index.php"
+  },
+  "about": {
+    "name": "About",
+    "path": "about.php"
+  },
+  "watch": {
+    "name": "Watch",
+    "path": "watch.php"
+  },
+  "bonus": {
+    "name": "Bonus",
+    "path": "bonus.php"
+  }
+}

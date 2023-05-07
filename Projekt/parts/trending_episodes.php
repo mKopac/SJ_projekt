@@ -12,7 +12,7 @@
             <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                 <div class="custom-block custom-block-full">
                     <div class="custom-block-image-wrap">
-                        <a href="watch.php.php">
+                        <a href="gfa.php">
                             <img src="images/episodes/gfa.JPG" class="custom-block-image img-fluid"
                                  alt="">
                         </a>
@@ -20,7 +20,7 @@
 
                     <div class="custom-block-info">
                         <h5 class="mb-2">
-                            <a href="not_used.php">
+                            <a href="gfa.php">
                                 Goodbye, Farewell and Amen
                             </a>
                         </h5>
@@ -57,7 +57,7 @@
             <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                 <div class="custom-block custom-block-full">
                     <div class="custom-block-image-wrap">
-                        <a href="watch.php">
+                        <a href="gfa.php">
                             <img src="images/episodes/gfad.JPG" class="custom-block-image img-fluid"
                                  alt="">
                         </a>
@@ -65,7 +65,7 @@
 
                     <div class="custom-block-info">
                         <h5 class="mb-2">
-                            <a href="watch.php">
+                            <a href="gfa.php">
                                 The General Flipped at Dawn
                             </a>
                         </h5>
@@ -102,7 +102,7 @@
             <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                 <div class="custom-block custom-block-full">
                     <div class="custom-block-image-wrap">
-                        <a href="watch.php.php">
+                        <a href="gfa.php">
                             <img src="images/episodes/aomh.JPG" class="custom-block-image img-fluid"
                                  alt="">
                         </a>
@@ -110,7 +110,7 @@
 
                     <div class="custom-block-info">
                         <h5 class="mb-2">
-                            <a href="not_used.php">
+                            <a href="gfa.php">
                                 The Abduction of Margaret Houlihan
                             </a>
                         </h5>

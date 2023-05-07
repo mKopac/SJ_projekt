@@ -70,6 +70,8 @@ include_once "parts/nav.php";
                         <hr>
                         <b>General:</b> Corporal does Colonel Blake not mind you drinking his brandy and smoking his
                         cigars?<br>
+                        <b>Drunk Radar:</b> Yes sir, very much.
+                        <b>General:</b> Then why are you doing it?
                         <b>Drunk Radar:</b> Well, I don't mind, and I figured as long as one of us is reasonable...
                         <hr>
                         <b>Col. Potter:</b> Horse Hockey!
@@ -94,7 +96,9 @@ include_once "parts/nav.php";
                         <b>Charles:</b> We are busy here.<br>
                         <b>BJ:</b> Shall I have him shot, Mon General?<br>
                         <b>Hawkeye impersonating a general:</b> Shooting is no good for him, lock him in a kitchen!
-
+                        <hr>
+                        <b>Henry:</b> Klinger, aren't you ashamed of yourself.<br>
+                        <b>Klinger:</b> Yes sir, I don't deserve to be in the army.
 
 
                     </div>
