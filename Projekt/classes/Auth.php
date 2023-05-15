@@ -58,7 +58,7 @@ class Auth
     {
         try {
             $hash = hash('sha256',$password);
-            $sql = "SELECT COUNT(id) AS is_admin FROM user WHERE meno = '".$name."' AND heslo = '".$hash."'";
+            $sql = "SELECT COUNT(id) AS is_admin FROM user WHERE username = '".$name."' AND password = '".$hash."'";
             $query = $this->connection->query($sql);
             $login = $query->fetch(PDO::FETCH_ASSOC);
             var_dump($login);

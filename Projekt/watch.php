@@ -253,7 +253,7 @@ include_once "parts/nav.php";
 
 
     <?php
-    include_once "parts/trending_episodes.php";
+    include_once "parts/trending_episodes2.php";
     ?>
 </main>
 

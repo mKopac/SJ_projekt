@@ -57,7 +57,7 @@
             <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                 <div class="custom-block custom-block-full">
                     <div class="custom-block-image-wrap">
-                        <a href="gfa.php">
+                        <a href="gfad.php">
                             <img src="images/episodes/gfad.JPG" class="custom-block-image img-fluid"
                                  alt="">
                         </a>
@@ -110,7 +110,7 @@
 
                     <div class="custom-block-info">
                         <h5 class="mb-2">
-                            <a href="gfa.php">
+                            <a href="aomh.php">
                                 The Abduction of Margaret Houlihan
                             </a>
                         </h5>
@@ -142,6 +142,8 @@
                     </div>
                 </div>
             </div>
+
+
 
         </div>
     </div>

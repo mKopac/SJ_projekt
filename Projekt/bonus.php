@@ -70,8 +70,8 @@ include_once "parts/nav.php";
                         <hr>
                         <b>General:</b> Corporal does Colonel Blake not mind you drinking his brandy and smoking his
                         cigars?<br>
-                        <b>Drunk Radar:</b> Yes sir, very much.
-                        <b>General:</b> Then why are you doing it?
+                        <b>Drunk Radar:</b> Yes sir, very much.<br>
+                        <b>General:</b> Then why are you doing it?<br>
                         <b>Drunk Radar:</b> Well, I don't mind, and I figured as long as one of us is reasonable...
                         <hr>
                         <b>Col. Potter:</b> Horse Hockey!

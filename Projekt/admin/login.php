@@ -17,9 +17,9 @@ if(isset($_POST['login'])) {
 } else {
     ?>
     <form action="" method="post">
-        Meno: <br>
+        Username: <br>
         <input type="text" name="username" value="" placeholder="Username"><br>
-        Heslo: <br>
+        Password: <br>
         <input type="password" name="password" value="" placeholder="Password"> <br>
         <input type="submit" name="login" value="Login">
     </form>

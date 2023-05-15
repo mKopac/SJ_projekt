@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hostiteľ: 127.0.0.1
--- Čas generovania: Sun 14.Máj 2023, 12:59
+-- Čas generovania: Po 15.Máj 2023, 12:26
 -- Verzia serveru: 10.4.27-MariaDB
 -- Verzia PHP: 8.2.0
 
@@ -46,6 +46,34 @@ INSERT INTO `cast` (`id`, `tag`, `name`, `actor`, `img_path`) VALUES
 (12, 'radar', 'Radar OReily', 'Gary Burghoff', 'images/profile/radar.jpg'),
 (14, 'frank', 'Frank Burns', 'Larry Linville', 'images/profile/burns.jpg'),
 (15, 'henry', 'Henry Blake', 'Mclean Stevenson', 'images/profile/henry.jpg');
+
+-- --------------------------------------------------------
+
+--
+-- Štruktúra tabuľky pre tabuľku `episode`
+--
+
+CREATE TABLE `episode` (
+  `id` int(11) NOT NULL,
+  `code` varchar(10) NOT NULL,
+  `title` varchar(45) NOT NULL,
+  `img_path` varchar(45) NOT NULL,
+  `name` varchar(20) NOT NULL,
+  `description` varchar(300) NOT NULL,
+  `length` int(11) NOT NULL,
+  `serial` varchar(6) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Sťahujem dáta pre tabuľku `episode`
+--
+
+INSERT INTO `episode` (`id`, `code`, `title`, `img_path`, `name`, `description`, `length`, `serial`) VALUES
+(1, 'gfa', 'Goodbye, Farewell and Amen', 'images/episodes/gfa.jpg', 'Alan Alda', 'In the closing days of the Korean War, the staff of the ...', 119, 'S11E16'),
+(2, 'gfad', 'The General Flipped at Dawn', 'images/episodes/gfad.jpg', 'Larry Gelbart', 'A visiting general, appearing to be more eccentric than...', 25, 'S03E01'),
+(3, 'aomh', 'The Abduction of Margaret Houlihan', 'images/episodes/aomh.jpg', 'Gene Reynolds', 'Margaret takes off in the middle of the night without a trace...', 26, 'S05E06'),
+(5, 'ar', 'Adams Ribs', 'images/episodes/ar.jpg', 'Gene Reynolds', 'After being fed up with mess hall food, Hawkeye goes on a desperate quest to order barbecue spare ribs...', 25, 'S03E11'),
+(6, 'wtk', 'Welcome to Korea', 'images/episodes/wtk.jpg', 'Gene Reynolds', 'Hawkeye rushes to the airport to say goodbye to Trapper. Instead they meet his replacement, B.J.', 50, 'S04E01');
 
 -- --------------------------------------------------------
 
@@ -100,15 +128,15 @@ INSERT INTO `reviews` (`id`, `username`, `nickname`, `text`) VALUES
 
 CREATE TABLE `user` (
   `id` int(11) NOT NULL,
-  `meno` varchar(15) NOT NULL,
-  `heslo` varchar(80) NOT NULL
+  `username` varchar(15) NOT NULL,
+  `password` varchar(80) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Sťahujem dáta pre tabuľku `user`
 --
 
-INSERT INTO `user` (`id`, `meno`, `heslo`) VALUES
+INSERT INTO `user` (`id`, `username`, `password`) VALUES
 (1, 'admin', '8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918');
 
 --
@@ -119,6 +147,12 @@ INSERT INTO `user` (`id`, `meno`, `heslo`) VALUES
 -- Indexy pre tabuľku `cast`
 --
 ALTER TABLE `cast`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexy pre tabuľku `episode`
+--
+ALTER TABLE `episode`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -148,6 +182,12 @@ ALTER TABLE `user`
 --
 ALTER TABLE `cast`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+
+--
+-- AUTO_INCREMENT pre tabuľku `episode`
+--
+ALTER TABLE `episode`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT pre tabuľku `menu`
